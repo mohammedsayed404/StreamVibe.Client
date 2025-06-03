@@ -1,15 +1,18 @@
-<div class="container">
-  <!-- <div #swiperContainer class="swiper-container" init="false" >
+<!-- <div class="container">
+  <swiper-container class="swiper-container" pagination="true" effect="coverflow" grab-cursor="true" centered-slides="true"
+    slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="100"
+    coverflow-effect-modifier="1" coverflow-effect-slide-shadows="true">
     <div class="swiper-wrapper">
       <ng-container *ngFor="let cast of castList">
-        <div class="swiper-slide" *ngIf="cast.profile_path">
+        <swiper-slide *ngIf="cast.profile_path">
           <img [src]="cast.profile_path | tmdbImageUrl: 'w185'" alt="{{ cast.name }}" class="cast-image" width="185px" />
           <p>{{ cast.name }}</p>
-        </div>
+        </swiper-slide>
       </ng-container>
     </div>
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
+  </swiper-container>
   </div> -->
   <!-- <div class="carousel slide">
     <div class="carousel-inner">

@@ -4,6 +4,8 @@ import { AppComponent } from './app/app.component';
 import { BrowserAnimationsModule, provideAnimations } from '@angular/platform-browser/animations';
 import { provideToastr } from 'ngx-toastr';
 import { NgxSpinnerModule } from 'ngx-spinner';
+import { register } from 'swiper/element/bundle';
+register();
 
 bootstrapApplication(AppComponent, {
   ...appConfig,
